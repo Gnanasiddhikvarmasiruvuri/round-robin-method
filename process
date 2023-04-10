@@ -1,0 +1,17 @@
+Create two queues, one for students and one for faculty.
+Set up a timer for two hours, from 10am to 12pm.
+While the timer is running:
+a. If there are queries in the student queue, pick up the next query and spend a fixed amount of time on it (e.g., 10 minutes).
+b. If there are queries in the faculty queue, pick up the next query and spend a fixed amount of time on it (e.g., 15 minutes).
+After the timer has ended, calculate the total time spent on handling queries and the average query time.
+Here's an example session log:
+
+10:00am - Logged into the system
+10:05am - Started handling student query 1
+10:15am - Finished handling student query 1
+10:20am - Started handling faculty query 1
+10:35am - Finished handling faculty query 1
+10:40am - Started handling student query 2
+10:50am - Finished handling student query 2
+11:00am - Started handling faculty query 2
+11:15am - Finished handling faculty query 2
